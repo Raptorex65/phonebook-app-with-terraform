@@ -68,7 +68,7 @@ resource "aws_security_group" "db-sg" {
     protocol = -1
     to_port = 0
   }
-
+}
 resource "aws_security_group" "alb-sg" {
   name = "ALBSecurityGroup"
   vpc_id = data.aws_vpc.selected.id

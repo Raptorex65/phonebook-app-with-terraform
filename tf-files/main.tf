@@ -120,7 +120,7 @@ data "aws_subnets" "example" {
     values = [data.aws_vpc.selected.id]
   }
 }
-
+}
 data "aws_ami" "amazon-linux-2" {
   owners = ["amazon"]
   most_recent = true
