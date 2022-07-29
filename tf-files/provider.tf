@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aecde4fbfab7385e24f112a7f33e4fad1e50657d
 terraform {
   required_providers {
     aws = {
@@ -24,6 +27,7 @@ provider "github" {
   token = "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"
 }
 
+<<<<<<< HEAD
 =======
 terraform {
   required_providers {
@@ -51,3 +55,5 @@ provider "github" {
 }
 
 >>>>>>> a08725d... terraform files updated
+=======
+>>>>>>> aecde4fbfab7385e24f112a7f33e4fad1e50657d

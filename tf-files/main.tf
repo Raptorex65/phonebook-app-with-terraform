@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aecde4fbfab7385e24f112a7f33e4fad1e50657d
 data "aws_vpc" "selected" {
   default = true
 }
@@ -109,6 +112,7 @@ resource "github_repository_file" "dbendpoint" {
   repository = "phonebook"
   overwrite_on_create = true
   branch = "master"
+<<<<<<< HEAD
 =======
 data "aws_vpc" "selected" {
   default = true
@@ -221,4 +225,6 @@ resource "github_repository_file" "dbendpoint" {
   overwrite_on_create = true
   branch = "master"
 >>>>>>> a08725d... terraform files updated
+=======
+>>>>>>> aecde4fbfab7385e24f112a7f33e4fad1e50657d
 }
