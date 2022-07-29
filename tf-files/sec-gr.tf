@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> aecde4fbfab7385e24f112a7f33e4fad1e50657d
+
 resource "aws_security_group" "alb-sg" {
   name = "ALBSecurityGroup"
   vpc_id = data.aws_vpc.selected.id
@@ -71,8 +68,7 @@ resource "aws_security_group" "db-sg" {
     protocol = -1
     to_port = 0
   }
-<<<<<<< HEAD
-=======
+
 resource "aws_security_group" "alb-sg" {
   name = "ALBSecurityGroup"
   vpc_id = data.aws_vpc.selected.id
@@ -142,7 +138,5 @@ resource "aws_security_group" "db-sg" {
     protocol = -1
     to_port = 0
   }
->>>>>>> a08725d... terraform files updated
-=======
->>>>>>> aecde4fbfab7385e24f112a7f33e4fad1e50657d
+
 }
